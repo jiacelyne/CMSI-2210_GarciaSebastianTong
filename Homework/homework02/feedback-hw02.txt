@@ -1,0 +1,53 @@
+
+
+Evaluation Criteria ~ homework02
+CMSI 2210 Section 02 Fall 2025
+=================================
+
+BOOK PROBLEMS
+   Question 01    1/1 pt.
+   Question 02    1/1 pt.
+   Question 03    1/1 pt.
+   Question 04    1/1 pt.
+   Question 05    1/1 pt.
+   Question 06    1/1 pt.
+   Question 07    1/1 pt.
+   Question 08    1/1 pt.
+   Question 09    1/1 pt.
+   Question 10    1/1 pt.
+   Question 11    1/1 pt.
+   Question 12    1/1 pt.
+   Question 13    1/1 pt.
+   Question 14    1/1 pt.
+   Question 15    1/1 pt.
+   Question 16    1/1 pt.
+   Question 17    1/1 pt.
+   Question 18  0.5/1 pt.
+   Question 19  0.5/1 pt.
+   Question 20    1/1 pt.
+
+Total possible points 20
+
+========================================================
+
+TOTAL EARNED POINTS:
+   you earned 19/20 which is 95% which is an A
+
+========================================================
+SPECIFIC COMMENTS/FEEDBACK:
+
+problem 9, don't forget that there are LOTS of options you can use with the
+   "ls" command to get more information and/or format the output!
+
+problems 18 and 19 aren't quite right.
+   The decimal value of "10010111" should be 128 + 16 + 7 = 151.
+   The decimal value of "11111111" should be 255, one of our magic numbers
+      where there are 8 bits of all "1".
+
+problem 20 you have the correct answer, but for the wrong reason.
+   Your statement "2^(16) = 65535" is incorrect since "2^(16)" is actually
+      65536.  The exponent on the highest-order bit of 16 bits would be
+      "2^(15)".  If you had said "2^(16) - 1 = 65535" then you would have
+      been 100% correct.
+
+Nice job!
