@@ -203,3 +203,7 @@ Sign: 1
 Mantissa (23-bits): 2^(23-12) \= 2^11  
 	Exponent: 11 \= 2048 \= 1000 \= 0x800  
 	Helping Website: [https://www.mimosa.org/ieee-floating-point-format/\#:\~:text=In%20the%2032%20bit%20IEEE,parts%20of%20the%20normalized%20number.\&text=A%20sign%20bit%20of%200,2%2D126%20to%202127](https://www.mimosa.org/ieee-floating-point-format/#:~:text=In%20the%2032%20bit%20IEEE,parts%20of%20the%20normalized%20number.&text=A%20sign%20bit%20of%200,2%2D126%20to%202127). 
+
+45. 0x0000060
+
+46. -100
