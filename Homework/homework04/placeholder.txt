@@ -1,1 +1,16 @@
 
+#5
+        JMP     start
+zero: 0x00000000
+one: 0x00000001
+max: 0x00000100
+count: 0x00000000
+Start:	LOAD  	zero
+	    STORE	count
+loop:	LOAD	count
+	    WRITE	0x8
+	    ADD		one
+	    STORE	count
+	    SUB		max
+	    JLZ		loop
+End:    JMP		end
