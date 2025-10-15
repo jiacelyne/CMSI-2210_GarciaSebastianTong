@@ -11,9 +11,18 @@ Nand Statement: X:= nand(nand (A,A), nand(B,C))  Y:= nand(A, nand(C,C))
 
 #2 refer to prob_2.pdf
 
-#3 fizzbuzz.c added in github folder
+#3 Register is reffered to as Reg
 
-#4
+a) Reg = Reg & 0xAAAAAAAA
+b) Reg = Reg | 0x00000007
+c) Reg = Reg & 0x00000007
+d) Reg = 0xFFFFFFFF
+e) Reg = Reg ^ 0xC0000000
+f) Reg = Reg & 0zFFFFFFF8
+
+#4 fizzbuzz.c added in github folder
+
+#5
 JMP 		start
 num: 0 
 counter: 1 
@@ -29,7 +38,7 @@ limit:  256
 	JLZ		[start]
 end: JMP	end
 
-#5
+#6
         JMP     start
 zero: 0x00000000
 one: 0x00000001
