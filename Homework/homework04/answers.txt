@@ -11,8 +11,8 @@ Nand Statement: X:= nand(nand (A,A), nand(B,C))  Y:= nand(A, nand(C,C))
 
 #2 refer to prob_2.pdf
 
-#3 Register is reffered to as Reg
-
+#3  Helping Website: https://www-id.imag.fr/~briat/perso.html/NACHOS/NACHOS_DOC/CA225b.html 
+Register is reffered to as Reg
 a) Reg = Reg & 0xAAAAAAAA
 b) Reg = Reg | 0x00000007
 c) Reg = Reg & 0x00000007
