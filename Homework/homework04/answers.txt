@@ -15,17 +15,19 @@ Nand Statement: X:= nand(nand (A,A), nand(B,C))  Y:= nand(A, nand(C,C))
 
 #4
 JMP 		start
-StartNum: 0 
+num: 0 
 counter: 1 
-Limit:  256
-	LOAD		[StartNum]
-	WRITE	0x0
-	ADD		[Counter]
+limit:  256
+	LOAD	[num]
+	WRITE	0x8
 	ADD		1
-	STORE	[Counter]
-LOAD		[Counter]
-	SUB		
-	STORE	[Counter]
+	STORE	[num]
+	LOAD	[counter]
+	ADD		1
+	STORE	[counter]
+	SUB		[limit]		
+	JLZ		[start]
+end: JMP	end
 
 #5
         JMP     start
