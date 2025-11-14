@@ -1,0 +1,56 @@
+
+
+Evaluation Criteria ~ homework05
+CMSI 2210 Section 02 Fall 2025
+=================================
+
+dec2bin
+   compiles       [ 5 pts.]      5 points earned
+   error checks   [ 5 pts.]      5 points earned
+   runs  tests    [10 pts.]     10 points earned
+dec2hex
+   compiles       [ 5 pts.]      5 points earned
+   error checks   [ 5 pts.]      5 points earned
+   32-bit tests   [ 5 pts.]      5 points earned
+   64-bit tests   [ 5 pts.]      5 points earned
+timesTables
+   compiles       [ 5 pts.]      5 points earned
+   error checks   [ 5 pts.]      5 points earned
+   runs  tests    [10 pts.]     10 points earned
+holdit
+   compiles       [ 5 pts.]      5 points earned
+   runs tests     [15 pts.]     15 points earned
+wordcount
+   compiles       [ 5 pts.]      5 points earned
+   error checks   [ 5 pts.]      5 points earned
+   runs tests     [10 pts.]     10 points earned
+
+ Total possible ~ 100 points
+
+========================================================
+
+TOTAL EARNED POINTS:
+   you earned 100/100 which is 100.00% which is an A-plus
+
+========================================================
+SPECIFIC COMMENTS/FEEDBACK:
+
+PERFECT SCORE!!
+
+========================================================
+SEMESTER SCORE SO FAR:
+
+   Homework01  100.00% of  5 points =  5.00 points
+   Homework02   95.00% of  5 points =  4.75 points
+   Homework03  102.10% of  5 points =  5.11 points
+   Homework04   97.78% of  5 points =  4.89 points
+   Homework05  100.00% of 10 points = 10.00 points
+                               total: 29.75 out of 30.00 = 99.17%
+                                which is an A-plus
+
+Your code looks VERY nice, your group obviously cares about the craft....
+
+Very impressive ~ you followed the problem specifications exactly and it
+was an absolute pleasure to do the evaluation on this.  Thank you!
+
+EXCELLENT WORK!  Only one more homework, so keep it up!
