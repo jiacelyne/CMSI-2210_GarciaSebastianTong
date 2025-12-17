@@ -14,12 +14,14 @@ void checkEndianness(uint32_t value) {
 }
 
 int main() {
-    u_int16_t test_value;
+//    u_int16_t test_value;
+// needed to correct this to remove the underscore
+    uint16_t test_value;
     printf("Enter a hex value (e.g., 0x01020304): ");
     scanf("%x", &test_value);
-    
+
     checkEndianness(test_value);
-    
+
     return 0;
 
 }

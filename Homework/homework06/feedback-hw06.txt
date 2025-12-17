@@ -1,0 +1,90 @@
+
+
+Evaluation Criteria ~ homework06
+CMSI 2210 Section all Fall 2025
+=================================
+                                    score
+FINDGCD.NASM                        ------
+   nasm file assembles  [5 pts.]    5 pts.
+   nasm runs            [5 pts.]    5 pts.
+   output correct       [3 pts.]    3 pts.
+GCDFINDER
+   nasm file assembles  [5 pts.]    5 pts.
+   gcdFinder.c compiles [5 pts.]    5 pts.
+   link both files OK   [5 pts.]    3 pts.
+   nasm returns value   [5 pts.]    5 pts.
+   output correct       [3 pts.]    3 pts.
+PARITYGEN
+   nasm file assembles  [5 pts.]    5 pts.
+   nasm runs            [5 pts.]    5 pts.
+   output correct       [3 pts.]    3 pts.
+WHICHENDISUP
+   compiles no errors   [5 pts.]    4 pts.
+   runs no errors       [5 pts.]    5 pts.
+MAKENBOC.C
+   compiles no errors   [5 pts.]    5 pts.
+   uses previous func.  [5 pts.]    5 pts.
+   tester compiles      [5 pts.]    5 pts.
+   tester runs          [5 pts.]    5 pts.
+   output correct       [3 pts.]    3 pts.
+MAKENBO.NASM [Extra credit]
+   nasm file assembles  [5 pts.]    0 pts.
+   link all files OK    [5 pts.]    0 pts.
+   calls "C" function   [5 pts.]    0 pts.
+   output correct       [3 pts.]    0 pts.
+
+Total possible points 82
+   plus 18 extra credit
+   possible maximum of 118%
+
+========================================================
+
+TOTAL EARNED POINTS:
+   you earned 79.00/82.00 which is 96.34% plus
+    0 extra credit points which is 96.34% which is an A
+
+========================================================
+SPECIFIC COMMENTS/FEEDBACK:
+
+problem 1 findGCD.nasm
+   works as advertised
+
+problem 2 findGCDfunc.nasm & gcdFinder.c
+   this LOOKS like it will work but it's hard to tell.  How did you get past
+      the situation with having two "main()" programs in your code?  You
+      have one main in the "findGCD.s" file with the funtion, and another in
+      the "gcdFinder.c" file.  You didn't provide any of the required build
+      information in the "C" file.  I'll take it on faith that your program
+      will actually work, but it would be better to have done as the problem
+      actually specified and put the function version into its own file that
+      is named "findGCDfunc.s".  Slight loss of points for this.
+
+problem 3 paritygen.nasm
+   works as advertised.  Not sure why you didn't use "printf()" for handling
+      the output rather than the entire "syscall" set up.  Still....
+
+problem 4 whichEndIsUp.c
+   this needed a correction for "u_int16_t" which should have been entered
+      as "uint16_t'.  Once I made that correction, works as advertised.
+
+problem 5 makeNBOC.c & makeNBOCtest.c
+   works as advertised
+
+problem 6 makeNBOC.c & makeNBON.nasm
+   extra credit not attempted
+
+========================================================
+SEMESTER HOMEWORK TOTALS:
+
+   Homework01  100.00% of  5 points =  5.00 points
+   Homework02   95.00% of  5 points =  4.75 points
+   Homework03  102.10% of  5 points =  5.11 points
+   Homework04   97.78% of  5 points =  4.89 points
+   Homework05  100.00% of 10 points = 10.00 points
+   homework06   96.34% of 15 points = 14.45 points
+                      semester total: 44.10 out of 45.00 = 98.00%
+                             which is an A-plus
+
+Great work!  It's been wonderful having you three in class this semester!
+Best wishes for a great holiday break and I look forward to seeing you all
+around campus in the spring!
